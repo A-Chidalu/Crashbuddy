@@ -4,7 +4,7 @@ from app2 import *
 
 visual_recognition = VisualRecognitionV3(
         '2018-03-19',
-        iam_apikey='BCr03Gyc9I-f0185uCZc4JlYIFf3MjxjjvBFhuctBtdE')
+        iam_apikey='SOME_API_KEY')
 
 with open(DOWNLOAD_DIRECTORY + '\\' + 'MMe33bbc6125fea20d238ecdc6fcb724d3.png', 'rb') as images_file:
         classes = visual_recognition.classify(
