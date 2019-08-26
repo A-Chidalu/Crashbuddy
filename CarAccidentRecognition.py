@@ -6,7 +6,7 @@ from watson_developer_cloud import VisualRecognitionV3
 def get_result(image_url):
     visual_recognition = VisualRecognitionV3(
         '2018-03-19',
-        iam_apikey='BCr03Gyc9I-f0185uCZc4JlYIFf3MjxjjvBFhuctBtdE')
+        iam_apikey='SOME_API_KEY')
 
     with open(image_url, 'rb') as url:
         classes = visual_recognition.classify(
