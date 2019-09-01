@@ -13,4 +13,4 @@ We then are able to send the label back to our user with a score of how confiden
 
 Technologies Used; Twilio,Flask,ngrok,Python,IBM WATSON Visual Recogniotion Software, APIS
 
-![CrashbuddyDemo](https://github.com/A-Chidalu/Crashbuddy/blob/master/CrashBuddy%20Demo.pngraw=true)
+![CrashbuddyDemo](https://github.com/A-Chidalu/Crashbuddy/blob/master/CrashBuddy%20Demo.png?raw=true)
