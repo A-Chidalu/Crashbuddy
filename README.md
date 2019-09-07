@@ -1,4 +1,6 @@
 # Crashbuddy
+
+## Description
 An Text Messaging Application for Road Side Assistance (Created at Hackthe6 08/23/2019)
 
 A User Sends an MMS to their specific Twilio account number. Through HTTPS calls and Flask the image is downloaded locally to a directory
@@ -11,6 +13,7 @@ Through IBM watson's APIS we are able to retrieve the JSON file of the API call 
 
 We then are able to send the label back to our user with a score of how confident the IBM watson model was (A percentage).
 
-Technologies Used; Twilio,Flask,ngrok,Python,IBM WATSON Visual Recogniotion Software, APIS
+## Technologies Used
+Twilio,Flask,ngrok,Python,IBM WATSON Visual Recogniotion Software, APIS
 
 ![CrashbuddyDemo](https://github.com/A-Chidalu/Crashbuddy/blob/master/CrashBuddy%20Demo.jpg?raw=true)
