@@ -3,7 +3,7 @@
 ## Description
 An Text Messaging Application for Road Side Assistance (Created at Hackthe6 08/23/2019)
 
-A User Sends an MMS to their specific Twilio account number. Through HTTPS calls and Flask the image is downloaded locally to a directory
+A User Sends an MMS to their specific Twilio account number. Through HTTP requests using Flask the image is downloaded locally to a directory
 in my compter. 
 
 With the directory we then feed this image into a Trained Machine learning Model Made with IBM watson and IBM watson is able to identify and Label
