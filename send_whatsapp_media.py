@@ -9,7 +9,7 @@ auth_token = "SOME_AUTH_TOKEN"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="+16479097033",
+    to=SOME_NUMBER,
     from_="+12267967251",
     body="This is most likely a Large Hood Dent with a likelihood of 74%")
 
